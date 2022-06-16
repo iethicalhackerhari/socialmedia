@@ -1,0 +1,118 @@
+.post-container{
+    width: 100%;
+    padding: 1.5rem;
+    padding-right: 1rem;
+
+    
+    .contents{
+        background-color: white;
+
+        padding: 1rem;
+
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.13);
+        -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.13);
+        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.13);
+
+        .top{
+
+
+            .top-left{
+                
+
+                .user-details{
+                    display: flex;
+                    align-items: center;
+                    height: 40px;
+                    margin-bottom: 1rem;
+
+                    p{
+                        padding: 0;
+                        margin:0;
+                        margin-left: 1rem;
+                    }
+
+                    .name{
+                        font-weight: 500;
+                    }
+
+                    .time{
+                        font-size: smaller;
+                        color: rgba(0, 0, 0, 0.484);
+                    }
+                    .img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        max-width: 40px;
+                        max-height: 40px;
+                        border-radius: 200%;
+                        overflow: hidden;
+        
+                        img {
+                            max-width: 50px;
+                            max-height: 70px;
+                        }
+                    }
+                }
+            }
+
+            .top-right{
+
+            }
+
+        }
+
+        .center{
+            text-align: left;
+            p{
+                padding: 0;
+                margin: 0;
+            }
+            
+            .img{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                max-height: 430px;
+                object-fit: cover;
+                overflow: hidden;
+            }
+        }
+
+        .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0.7rem;
+            .bottom-left{
+
+                .likes{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    max-height: 20px;
+
+                    p{
+                        padding: 0  0.3rem;
+                        font-weight: 500;
+                    }
+
+                    svg{
+                        font-size: x-large;
+                        color: #5333ac;
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .bottom-right{
+                p{
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

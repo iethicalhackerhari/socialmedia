@@ -1,0 +1,11 @@
+.feed-container{
+    flex: 50%;
+    margin-top: 0.5rem;
+    
+
+
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
